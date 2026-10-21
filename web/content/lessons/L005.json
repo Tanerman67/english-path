@@ -1,0 +1,216 @@
+{
+  "id": "L005",
+  "revision": 1,
+  "moduleId": "M01",
+  "order": 5,
+  "title": "Explaining a technical problem",
+  "level": "B1-B2",
+  "durationMinutes": 35,
+  "goalRu": "Понятно описывать последовательность событий и возможные причины.",
+  "skills": [
+    "grammar",
+    "vocabulary",
+    "speaking",
+    "listening",
+    "writing",
+    "work_english"
+  ],
+  "grammar": {
+    "topic": "Past Simple / Past Continuous + connectors",
+    "explanationRu": "Past Continuous описывает фоновый процесс; Past Simple — завершённое событие. Because объясняет причину, so/as a result — следствие. Не называйте предположение доказанной причиной.",
+    "examples": [
+      "The service stopped responding while we were testing it.",
+      "The request timed out, so we checked the logs."
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "L005-V01",
+      "en": "timeout",
+      "ru": "превышение времени ожидания",
+      "example": "The request failed due to a timeout."
+    },
+    {
+      "id": "L005-V02",
+      "en": "retry",
+      "ru": "повторить попытку",
+      "example": "We retried the request."
+    },
+    {
+      "id": "L005-V03",
+      "en": "failure",
+      "ru": "сбой",
+      "example": "The failure affected one service."
+    },
+    {
+      "id": "L005-V04",
+      "en": "outage",
+      "ru": "отключение сервиса",
+      "example": "There was a brief outage."
+    },
+    {
+      "id": "L005-V05",
+      "en": "cause",
+      "ru": "причина",
+      "example": "The cause is not confirmed yet."
+    },
+    {
+      "id": "L005-V06",
+      "en": "impact",
+      "ru": "влияние",
+      "example": "The impact was limited."
+    },
+    {
+      "id": "L005-V07",
+      "en": "reproduce",
+      "ru": "воспроизвести",
+      "example": "We could not reproduce the error."
+    },
+    {
+      "id": "L005-V08",
+      "en": "investigation",
+      "ru": "расследование",
+      "example": "The investigation is ongoing."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "L005-P01",
+      "en": "We noticed an issue during testing.",
+      "ru": "Мы заметили проблему во время тестирования."
+    },
+    {
+      "id": "L005-P02",
+      "en": "The request timed out.",
+      "ru": "Истекло время ожидания запроса."
+    },
+    {
+      "id": "L005-P03",
+      "en": "It happened while we were testing the endpoint.",
+      "ru": "Это случилось во время тестирования эндпоинта."
+    },
+    {
+      "id": "L005-P04",
+      "en": "As a result, we paused the rollout.",
+      "ru": "В результате мы приостановили внедрение."
+    },
+    {
+      "id": "L005-P05",
+      "en": "We haven’t confirmed the root cause yet.",
+      "ru": "Мы пока не подтвердили основную причину."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Maya",
+      "text": "What happened during the test?"
+    },
+    {
+      "speaker": "Alex",
+      "text": "The request timed out while we were testing the endpoint."
+    },
+    {
+      "speaker": "Maya",
+      "text": "Did it affect other services?"
+    },
+    {
+      "speaker": "Alex",
+      "text": "We haven’t seen any impact on other services."
+    },
+    {
+      "speaker": "Maya",
+      "text": "Do we know the cause?"
+    },
+    {
+      "speaker": "Alex",
+      "text": "Not yet. We’re checking the logs and trying to reproduce it."
+    }
+  ],
+  "listening": {
+    "audioAsset": null,
+    "recordingStatus": "planned-not-created",
+    "scriptUsesDialogue": true,
+    "question": "Has the root cause been confirmed?",
+    "expectedAnswer": "No, it has not."
+  },
+  "exercises": [
+    {
+      "id": "L005-Q01",
+      "type": "single_choice",
+      "prompt": "The service stopped while we ___ it.",
+      "options": [
+        "test",
+        "were testing",
+        "have tested"
+      ],
+      "correct": "were testing",
+      "explanationRu": "Фоновый процесс в прошлом — Past Continuous."
+    },
+    {
+      "id": "L005-Q02",
+      "type": "single_choice",
+      "prompt": "The request timed out, ___ we checked the logs.",
+      "options": [
+        "because",
+        "so",
+        "although"
+      ],
+      "correct": "so",
+      "explanationRu": "So вводит следствие."
+    },
+    {
+      "id": "L005-G01",
+      "type": "fill_blank",
+      "prompt": "We noticed the issue ___ testing.",
+      "acceptedAnswers": [
+        "during"
+      ],
+      "explanationRu": "During + существительное."
+    },
+    {
+      "id": "L005-G02",
+      "type": "fill_blank",
+      "prompt": "We haven’t confirmed the root cause ___.",
+      "acceptedAnswers": [
+        "yet"
+      ],
+      "explanationRu": "Yet после отрицания Present Perfect."
+    },
+    {
+      "id": "L005-S01",
+      "type": "self_assessed_speaking",
+      "prompt": "Опиши сбой в 60–90 секундах: что произошло, когда, что было затронуто, что проверяется, чего пока не знаем.",
+      "selfCheckRu": [
+        "Я ответил вслух, не читая готовый ответ",
+        "Я использовал минимум две целевые фразы",
+        "Я смог объяснить смысл без дословного перевода"
+      ]
+    },
+    {
+      "id": "L005-W01",
+      "type": "self_assessed_writing",
+      "prompt": "Напиши короткое incident update (60–90 слов). Отдели наблюдения от гипотез.",
+      "modelAnswer": "During testing, one request timed out. We paused the rollout as a precaution. So far, we have not seen any impact on other services. We are reviewing the logs and trying to reproduce the issue. The root cause has not been confirmed yet. I will share another update when we have more evidence.",
+      "selfCheckRu": [
+        "Мысль понятна",
+        "Использованы целевые конструкции",
+        "Проверены времена и порядок слов"
+      ]
+    }
+  ],
+  "reviewItemIds": [
+    "L005-P01",
+    "L005-P02",
+    "L005-P03",
+    "L005-P04",
+    "L005-P05",
+    "L005-V01",
+    "L005-V02",
+    "L005-V03",
+    "L005-V04",
+    "L005-V05",
+    "L005-V06",
+    "L005-V07",
+    "L005-V08"
+  ]
+}

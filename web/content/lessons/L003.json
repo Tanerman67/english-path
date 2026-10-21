@@ -1,0 +1,216 @@
+{
+  "id": "L003",
+  "revision": 1,
+  "moduleId": "M01",
+  "order": 3,
+  "title": "Talking about ongoing work",
+  "level": "B1-B2",
+  "durationMinutes": 35,
+  "goalRu": "Выбирать между результатом и длительным процессом.",
+  "skills": [
+    "grammar",
+    "vocabulary",
+    "speaking",
+    "listening",
+    "writing",
+    "work_english"
+  ],
+  "grammar": {
+    "topic": "Present Perfect Simple vs Present Perfect Continuous",
+    "explanationRu": "Present Perfect Simple выделяет результат или количество; Present Perfect Continuous — продолжительность деятельности и сам процесс. С since — начало периода, с for — длительность.",
+    "examples": [
+      "I have fixed three bugs this week.",
+      "I have been investigating the issue for two hours."
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "L003-V01",
+      "en": "ongoing",
+      "ru": "продолжающийся",
+      "example": "This is an ongoing task."
+    },
+    {
+      "id": "L003-V02",
+      "en": "since",
+      "ru": "с определённого момента",
+      "example": "I’ve been here since Monday."
+    },
+    {
+      "id": "L003-V03",
+      "en": "for",
+      "ru": "в течение",
+      "example": "I’ve worked on it for two days."
+    },
+    {
+      "id": "L003-V04",
+      "en": "recently",
+      "ru": "недавно",
+      "example": "We’ve recently changed the process."
+    },
+    {
+      "id": "L003-V05",
+      "en": "improve",
+      "ru": "улучшать",
+      "example": "We are improving the workflow."
+    },
+    {
+      "id": "L003-V06",
+      "en": "monitor",
+      "ru": "отслеживать",
+      "example": "We have been monitoring the service."
+    },
+    {
+      "id": "L003-V07",
+      "en": "pending",
+      "ru": "ожидающий решения",
+      "example": "The approval is still pending."
+    },
+    {
+      "id": "L003-V08",
+      "en": "deploy",
+      "ru": "развёртывать",
+      "example": "We deployed the update this morning."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "L003-P01",
+      "en": "I’ve been working on this for two days.",
+      "ru": "Я работаю над этим уже два дня."
+    },
+    {
+      "id": "L003-P02",
+      "en": "We’ve been investigating the issue since Monday.",
+      "ru": "Мы исследуем проблему с понедельника."
+    },
+    {
+      "id": "L003-P03",
+      "en": "I’ve fixed two problems so far.",
+      "ru": "Пока я исправил две проблемы."
+    },
+    {
+      "id": "L003-P04",
+      "en": "I’m still waiting for confirmation.",
+      "ru": "Я всё ещё жду подтверждения."
+    },
+    {
+      "id": "L003-P05",
+      "en": "How long have you been working on it?",
+      "ru": "Как давно ты над этим работаешь?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Maya",
+      "text": "How long have you been investigating the issue?"
+    },
+    {
+      "speaker": "Alex",
+      "text": "I’ve been looking into it since Monday."
+    },
+    {
+      "speaker": "Maya",
+      "text": "Have you found anything?"
+    },
+    {
+      "speaker": "Alex",
+      "text": "Yes, I’ve identified two possible causes."
+    },
+    {
+      "speaker": "Maya",
+      "text": "Is the investigation finished?"
+    },
+    {
+      "speaker": "Alex",
+      "text": "Not yet. We’re still monitoring the system."
+    }
+  ],
+  "listening": {
+    "audioAsset": null,
+    "recordingStatus": "planned-not-created",
+    "scriptUsesDialogue": true,
+    "question": "What has Alex identified?",
+    "expectedAnswer": "Two possible causes."
+  },
+  "exercises": [
+    {
+      "id": "L003-Q01",
+      "type": "single_choice",
+      "prompt": "I ___ this issue since 9 a.m., and I am still working on it.",
+      "options": [
+        "have been investigating",
+        "investigated",
+        "will investigate"
+      ],
+      "correct": "have been investigating",
+      "explanationRu": "Акцент на длительном процессе."
+    },
+    {
+      "id": "L003-Q02",
+      "type": "single_choice",
+      "prompt": "I ___ three possible causes so far.",
+      "options": [
+        "have identified",
+        "have been identifying",
+        "identified yesterday"
+      ],
+      "correct": "have identified",
+      "explanationRu": "Количество/результат: have identified."
+    },
+    {
+      "id": "L003-G01",
+      "type": "fill_blank",
+      "prompt": "We’ve been working on it ___ Monday.",
+      "acceptedAnswers": [
+        "since"
+      ],
+      "explanationRu": "Since + начало периода."
+    },
+    {
+      "id": "L003-G02",
+      "type": "fill_blank",
+      "prompt": "I’ve been waiting ___ two hours.",
+      "acceptedAnswers": [
+        "for"
+      ],
+      "explanationRu": "For + длительность."
+    },
+    {
+      "id": "L003-S01",
+      "type": "self_assessed_speaking",
+      "prompt": "Объясни, как долго длится текущая задача, что удалось сделать и что остаётся незавершённым.",
+      "selfCheckRu": [
+        "Я ответил вслух, не читая готовый ответ",
+        "Я использовал минимум две целевые фразы",
+        "Я смог объяснить смысл без дословного перевода"
+      ]
+    },
+    {
+      "id": "L003-W01",
+      "type": "self_assessed_writing",
+      "prompt": "Напиши короткий статус (50–70 слов) со словами since, for и so far.",
+      "modelAnswer": "We’ve been investigating the issue since Monday. So far, we’ve checked three endpoints and identified one possible cause. We’ve also been monitoring the service for two hours. We still need to confirm the result.",
+      "selfCheckRu": [
+        "Мысль понятна",
+        "Использованы целевые конструкции",
+        "Проверены времена и порядок слов"
+      ]
+    }
+  ],
+  "reviewItemIds": [
+    "L003-P01",
+    "L003-P02",
+    "L003-P03",
+    "L003-P04",
+    "L003-P05",
+    "L003-V01",
+    "L003-V02",
+    "L003-V03",
+    "L003-V04",
+    "L003-V05",
+    "L003-V06",
+    "L003-V07",
+    "L003-V08"
+  ]
+}

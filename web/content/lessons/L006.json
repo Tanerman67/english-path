@@ -1,0 +1,216 @@
+{
+  "id": "L006",
+  "revision": 1,
+  "moduleId": "M01",
+  "order": 6,
+  "title": "Suggesting solutions and next steps",
+  "level": "B1-B2",
+  "durationMinutes": 35,
+  "goalRu": "Предлагать варианты, осторожно обсуждать риски и условия.",
+  "skills": [
+    "grammar",
+    "vocabulary",
+    "speaking",
+    "listening",
+    "writing",
+    "work_english"
+  ],
+  "grammar": {
+    "topic": "Modal verbs + first conditional",
+    "explanationRu": "Could/might помогают мягко предложить решение и выразить вероятность. В реальном условии используйте If + Present Simple, затем can/will/might + глагол.",
+    "examples": [
+      "We could test the endpoint again.",
+      "If we reduce the scope, we might meet the deadline."
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "L006-V01",
+      "en": "option",
+      "ru": "вариант",
+      "example": "We have two options."
+    },
+    {
+      "id": "L006-V02",
+      "en": "workaround",
+      "ru": "временное решение",
+      "example": "This workaround may help."
+    },
+    {
+      "id": "L006-V03",
+      "en": "priority",
+      "ru": "приоритет",
+      "example": "This task is a high priority."
+    },
+    {
+      "id": "L006-V04",
+      "en": "risk",
+      "ru": "риск",
+      "example": "We need to assess the risk."
+    },
+    {
+      "id": "L006-V05",
+      "en": "alternative",
+      "ru": "альтернатива",
+      "example": "Let’s consider an alternative."
+    },
+    {
+      "id": "L006-V06",
+      "en": "estimate",
+      "ru": "оценивать / оценка",
+      "example": "Can you estimate the effort?"
+    },
+    {
+      "id": "L006-V07",
+      "en": "deadline",
+      "ru": "срок",
+      "example": "We might miss the deadline."
+    },
+    {
+      "id": "L006-V08",
+      "en": "trade-off",
+      "ru": "компромисс",
+      "example": "There is a trade-off between speed and quality."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "L006-P01",
+      "en": "We could try a different approach.",
+      "ru": "Мы могли бы попробовать другой подход."
+    },
+    {
+      "id": "L006-P02",
+      "en": "It might be better to test this first.",
+      "ru": "Возможно, лучше сначала это протестировать."
+    },
+    {
+      "id": "L006-P03",
+      "en": "If we change the scope, we might save time.",
+      "ru": "Если изменим объём, возможно, сэкономим время."
+    },
+    {
+      "id": "L006-P04",
+      "en": "What if we use a temporary workaround?",
+      "ru": "А что, если применить временное решение?"
+    },
+    {
+      "id": "L006-P05",
+      "en": "I’d suggest checking the risks first.",
+      "ru": "Я бы предложил сначала проверить риски."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Maya",
+      "text": "We may miss the deadline."
+    },
+    {
+      "speaker": "Alex",
+      "text": "We could reduce the scope for the first release."
+    },
+    {
+      "speaker": "Maya",
+      "text": "What about the missing functionality?"
+    },
+    {
+      "speaker": "Alex",
+      "text": "If we agree on priorities, we can deliver it in a later update."
+    },
+    {
+      "speaker": "Maya",
+      "text": "Are there any risks?"
+    },
+    {
+      "speaker": "Alex",
+      "text": "Yes. I’d suggest reviewing them before we decide."
+    }
+  ],
+  "listening": {
+    "audioAsset": null,
+    "recordingStatus": "planned-not-created",
+    "scriptUsesDialogue": true,
+    "question": "What does Alex suggest reviewing before making a decision?",
+    "expectedAnswer": "The risks."
+  },
+  "exercises": [
+    {
+      "id": "L006-Q01",
+      "type": "single_choice",
+      "prompt": "If we ___ the scope, we might save time.",
+      "options": [
+        "reduce",
+        "will reduce",
+        "reduced"
+      ],
+      "correct": "reduce",
+      "explanationRu": "В первой части first conditional — Present Simple."
+    },
+    {
+      "id": "L006-Q02",
+      "type": "single_choice",
+      "prompt": "Which suggestion is appropriately cautious?",
+      "options": [
+        "This definitely solves everything.",
+        "It might be better to test this first.",
+        "You have to do it now."
+      ],
+      "correct": "It might be better to test this first.",
+      "explanationRu": "Might подчёркивает возможность, а не уверенность."
+    },
+    {
+      "id": "L006-G01",
+      "type": "fill_blank",
+      "prompt": "We could try a different ___.",
+      "acceptedAnswers": [
+        "approach"
+      ],
+      "explanationRu": "A different approach — естественное словосочетание."
+    },
+    {
+      "id": "L006-G02",
+      "type": "fill_blank",
+      "prompt": "I’d suggest ___ the risks first.",
+      "acceptedAnswers": [
+        "reviewing"
+      ],
+      "explanationRu": "После suggest здесь используется -ing."
+    },
+    {
+      "id": "L006-S01",
+      "type": "self_assessed_speaking",
+      "prompt": "Предложи два решения проблемы, назови один риск и скажи, что произойдёт, если выбрать первый вариант.",
+      "selfCheckRu": [
+        "Я ответил вслух, не читая готовый ответ",
+        "Я использовал минимум две целевые фразы",
+        "Я смог объяснить смысл без дословного перевода"
+      ]
+    },
+    {
+      "id": "L006-W01",
+      "type": "self_assessed_writing",
+      "prompt": "Напиши короткое сообщение менеджеру (60–90 слов) с двумя вариантами и условным предложением.",
+      "modelAnswer": "We have two possible options. We could delay the release and investigate the issue further, or use a temporary workaround after testing it. The workaround may save time, but we need to review the risks. If we cannot confirm it is safe, I suggest postponing the release.",
+      "selfCheckRu": [
+        "Мысль понятна",
+        "Использованы целевые конструкции",
+        "Проверены времена и порядок слов"
+      ]
+    }
+  ],
+  "reviewItemIds": [
+    "L006-P01",
+    "L006-P02",
+    "L006-P03",
+    "L006-P04",
+    "L006-P05",
+    "L006-V01",
+    "L006-V02",
+    "L006-V03",
+    "L006-V04",
+    "L006-V05",
+    "L006-V06",
+    "L006-V07",
+    "L006-V08"
+  ]
+}

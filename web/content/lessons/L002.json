@@ -1,0 +1,216 @@
+{
+  "id": "L002",
+  "revision": 1,
+  "moduleId": "M01",
+  "order": 2,
+  "title": "Talking about progress",
+  "level": "B1-B2",
+  "durationMinutes": 35,
+  "goalRu": "Объяснять, что уже сделано, а что произошло в конкретный момент в прошлом.",
+  "skills": [
+    "grammar",
+    "vocabulary",
+    "speaking",
+    "listening",
+    "writing",
+    "work_english"
+  ],
+  "grammar": {
+    "topic": "Present Perfect vs Past Simple",
+    "explanationRu": "Present Perfect связывает прошлое с настоящим результатом (I have finished). Past Simple часто указывает на завершённое время (I finished it yesterday).",
+    "examples": [
+      "I have already checked the logs.",
+      "I checked the logs yesterday."
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "L002-V01",
+      "en": "update",
+      "ru": "обновление / сообщать новости",
+      "example": "I will send an update."
+    },
+    {
+      "id": "L002-V02",
+      "en": "issue",
+      "ru": "проблема",
+      "example": "We identified an issue."
+    },
+    {
+      "id": "L002-V03",
+      "en": "logs",
+      "ru": "логи",
+      "example": "I checked the logs."
+    },
+    {
+      "id": "L002-V04",
+      "en": "release",
+      "ru": "релиз",
+      "example": "The release went well."
+    },
+    {
+      "id": "L002-V05",
+      "en": "complete",
+      "ru": "завершать",
+      "example": "I completed the task."
+    },
+    {
+      "id": "L002-V06",
+      "en": "investigate",
+      "ru": "исследовать",
+      "example": "We are investigating the issue."
+    },
+    {
+      "id": "L002-V07",
+      "en": "response",
+      "ru": "ответ",
+      "example": "We received a response."
+    },
+    {
+      "id": "L002-V08",
+      "en": "progress",
+      "ru": "прогресс",
+      "example": "We have made progress."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "L002-P01",
+      "en": "I’ve finished the task.",
+      "ru": "Я закончил задачу."
+    },
+    {
+      "id": "L002-P02",
+      "en": "I’ve already checked the logs.",
+      "ru": "Я уже проверил логи."
+    },
+    {
+      "id": "L002-P03",
+      "en": "I fixed it yesterday.",
+      "ru": "Я исправил это вчера."
+    },
+    {
+      "id": "L002-P04",
+      "en": "I haven’t received a response yet.",
+      "ru": "Я ещё не получил ответ."
+    },
+    {
+      "id": "L002-P05",
+      "en": "We’ve made some progress.",
+      "ru": "Мы добились определённого прогресса."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Maya",
+      "text": "Have you checked the logs?"
+    },
+    {
+      "speaker": "Alex",
+      "text": "Yes, I’ve already checked them."
+    },
+    {
+      "speaker": "Maya",
+      "text": "When did you find the issue?"
+    },
+    {
+      "speaker": "Alex",
+      "text": "I found it yesterday afternoon."
+    },
+    {
+      "speaker": "Maya",
+      "text": "Have you fixed it?"
+    },
+    {
+      "speaker": "Alex",
+      "text": "Not yet, but we’ve made some progress."
+    }
+  ],
+  "listening": {
+    "audioAsset": null,
+    "recordingStatus": "planned-not-created",
+    "scriptUsesDialogue": true,
+    "question": "When did Alex find the issue?",
+    "expectedAnswer": "Yesterday afternoon."
+  },
+  "exercises": [
+    {
+      "id": "L002-Q01",
+      "type": "single_choice",
+      "prompt": "I ___ the issue yesterday.",
+      "options": [
+        "have fixed",
+        "fixed",
+        "have been fixing"
+      ],
+      "correct": "fixed",
+      "explanationRu": "Yesterday — конкретный завершённый период в прошлом."
+    },
+    {
+      "id": "L002-Q02",
+      "type": "single_choice",
+      "prompt": "We ___ the logs several times so far.",
+      "options": [
+        "checked",
+        "have checked",
+        "checking"
+      ],
+      "correct": "have checked",
+      "explanationRu": "Already + результат к настоящему моменту."
+    },
+    {
+      "id": "L002-G01",
+      "type": "fill_blank",
+      "prompt": "I haven’t received a reply ___.",
+      "acceptedAnswers": [
+        "yet"
+      ],
+      "explanationRu": "Yet часто ставят в конце отрицательного Present Perfect."
+    },
+    {
+      "id": "L002-G02",
+      "type": "fill_blank",
+      "prompt": "I ___ the logs yesterday afternoon.",
+      "acceptedAnswers": [
+        "checked"
+      ],
+      "explanationRu": "Конкретный период в прошлом — Past Simple."
+    },
+    {
+      "id": "L002-S01",
+      "type": "self_assessed_speaking",
+      "prompt": "Расскажи коллеге, что уже сделано сегодня, что ты сделал вчера и чего ещё ожидаешь.",
+      "selfCheckRu": [
+        "Я ответил вслух, не читая готовый ответ",
+        "Я использовал минимум две целевые фразы",
+        "Я смог объяснить смысл без дословного перевода"
+      ]
+    },
+    {
+      "id": "L002-W01",
+      "type": "self_assessed_writing",
+      "prompt": "Напиши 3–5 предложений с кратким статусом проекта: completed / yesterday / not yet.",
+      "modelAnswer": "I’ve completed the initial checks and reviewed the API response. Yesterday, I found an issue with one request. I haven’t confirmed the cause yet, but I’ll send an update when I know more.",
+      "selfCheckRu": [
+        "Мысль понятна",
+        "Использованы целевые конструкции",
+        "Проверены времена и порядок слов"
+      ]
+    }
+  ],
+  "reviewItemIds": [
+    "L002-P01",
+    "L002-P02",
+    "L002-P03",
+    "L002-P04",
+    "L002-P05",
+    "L002-V01",
+    "L002-V02",
+    "L002-V03",
+    "L002-V04",
+    "L002-V05",
+    "L002-V06",
+    "L002-V07",
+    "L002-V08"
+  ]
+}

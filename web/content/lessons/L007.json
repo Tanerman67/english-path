@@ -1,0 +1,216 @@
+{
+  "id": "L007",
+  "revision": 1,
+  "moduleId": "M01",
+  "order": 7,
+  "title": "Real work conversation: end-to-end",
+  "level": "B1-B2",
+  "durationMinutes": 45,
+  "goalRu": "Использовать весь материал недели в одной реалистичной ситуации.",
+  "skills": [
+    "grammar",
+    "vocabulary",
+    "speaking",
+    "listening",
+    "writing",
+    "work_english"
+  ],
+  "grammar": {
+    "topic": "Integrated review: tenses, clarification, modals and linking words",
+    "explanationRu": "Объединяем статус, уточняющие вопросы, описание проблемы, возможные решения и follow-up. Оценка по чек-листу, а не автоматическое присвоение уровня B2.",
+    "examples": [
+      "We’ve reviewed the request, but we haven’t confirmed the cause.",
+      "If you can share the time and endpoint, we can investigate further."
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "L007-V01",
+      "en": "incident",
+      "ru": "инцидент",
+      "example": "We are reviewing the incident."
+    },
+    {
+      "id": "L007-V02",
+      "en": "environment",
+      "ru": "окружение",
+      "example": "Does it happen in the staging environment?"
+    },
+    {
+      "id": "L007-V03",
+      "en": "unauthorised",
+      "ru": "неавторизованный",
+      "example": "The server returned an unauthorised response."
+    },
+    {
+      "id": "L007-V04",
+      "en": "verify",
+      "ru": "проверять",
+      "example": "We need to verify the configuration."
+    },
+    {
+      "id": "L007-V05",
+      "en": "follow-up",
+      "ru": "последующее сообщение",
+      "example": "I’ll send a follow-up."
+    },
+    {
+      "id": "L007-V06",
+      "en": "resolve",
+      "ru": "решать проблему",
+      "example": "We hope to resolve this soon."
+    },
+    {
+      "id": "L007-V07",
+      "en": "evidence",
+      "ru": "свидетельства / данные",
+      "example": "We need more evidence."
+    },
+    {
+      "id": "L007-V08",
+      "en": "relevant",
+      "ru": "относящийся к делу",
+      "example": "Please share the relevant details."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "L007-P01",
+      "en": "Thanks for reporting this issue.",
+      "ru": "Спасибо, что сообщили о проблеме."
+    },
+    {
+      "id": "L007-P02",
+      "en": "Could you confirm which environment is affected?",
+      "ru": "Можете подтвердить, какое окружение затронуто?"
+    },
+    {
+      "id": "L007-P03",
+      "en": "We haven’t reproduced it yet.",
+      "ru": "Мы пока не смогли это воспроизвести."
+    },
+    {
+      "id": "L007-P04",
+      "en": "We’re looking into the possible causes.",
+      "ru": "Мы изучаем возможные причины."
+    },
+    {
+      "id": "L007-P05",
+      "en": "I’ll follow up when we have more information.",
+      "ru": "Я сообщу дополнительные сведения, когда они появятся."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Partner",
+      "text": "We keep getting a 401 response in staging."
+    },
+    {
+      "speaker": "Alex",
+      "text": "Thanks for reporting this. Could you confirm which endpoint is affected?"
+    },
+    {
+      "speaker": "Partner",
+      "text": "It happens on the status endpoint."
+    },
+    {
+      "speaker": "Alex",
+      "text": "Have you noticed when it started? We haven’t reproduced it yet."
+    },
+    {
+      "speaker": "Partner",
+      "text": "It started this morning."
+    },
+    {
+      "speaker": "Alex",
+      "text": "We’ll investigate the logs and follow up. Please do not send passwords or access tokens in chat."
+    }
+  ],
+  "listening": {
+    "audioAsset": null,
+    "recordingStatus": "planned-not-created",
+    "scriptUsesDialogue": true,
+    "question": "Which environment is affected, and what response code did the partner report?",
+    "expectedAnswer": "Staging; HTTP 401."
+  },
+  "exercises": [
+    {
+      "id": "L007-Q01",
+      "type": "single_choice",
+      "prompt": "We ___ reproduced the issue yet.",
+      "options": [
+        "haven’t",
+        "didn’t",
+        "aren’t"
+      ],
+      "correct": "haven’t",
+      "explanationRu": "Yet и значение результата к настоящему: Present Perfect."
+    },
+    {
+      "id": "L007-Q02",
+      "type": "single_choice",
+      "prompt": "If you ___ the approximate time, we can check the logs.",
+      "options": [
+        "share",
+        "will share",
+        "shared"
+      ],
+      "correct": "share",
+      "explanationRu": "If + Present Simple."
+    },
+    {
+      "id": "L007-G01",
+      "type": "fill_blank",
+      "prompt": "Could you confirm which endpoint ___ affected?",
+      "acceptedAnswers": [
+        "is"
+      ],
+      "explanationRu": "Косвенный вопрос: which endpoint is affected."
+    },
+    {
+      "id": "L007-G02",
+      "type": "fill_blank",
+      "prompt": "We’ve been looking ___ the possible causes.",
+      "acceptedAnswers": [
+        "into"
+      ],
+      "explanationRu": "Look into = исследовать."
+    },
+    {
+      "id": "L007-S01",
+      "type": "self_assessed_speaking",
+      "prompt": "Сымитируй рабочий звонок на 90 секунд: ответь партнёру, запроси нужную информацию без секретов, объясни план проверки и согласуй follow-up.",
+      "selfCheckRu": [
+        "Я ответил вслух, не читая готовый ответ",
+        "Я использовал минимум две целевые фразы",
+        "Я смог объяснить смысл без дословного перевода"
+      ]
+    },
+    {
+      "id": "L007-W01",
+      "type": "self_assessed_writing",
+      "prompt": "Напиши follow-up email партнёру (80–120 слов): что известно, что пока не подтверждено, что будем делать и какая информация нужна. Не проси секретные ключи или пароли.",
+      "modelAnswer": "Hi, thanks for reporting the 401 responses in staging. We have reviewed the initial report, but we have not reproduced the issue yet. Could you confirm the affected endpoint and the approximate time of the requests? We will check the relevant logs and review the configuration on our side. We have not confirmed the root cause, so we do not want to make assumptions. I will follow up when we have more information. Please avoid sharing access tokens or passwords in chat.",
+      "selfCheckRu": [
+        "Мысль понятна",
+        "Использованы целевые конструкции",
+        "Проверены времена и порядок слов"
+      ]
+    }
+  ],
+  "reviewItemIds": [
+    "L007-P01",
+    "L007-P02",
+    "L007-P03",
+    "L007-P04",
+    "L007-P05",
+    "L007-V01",
+    "L007-V02",
+    "L007-V03",
+    "L007-V04",
+    "L007-V05",
+    "L007-V06",
+    "L007-V07",
+    "L007-V08"
+  ]
+}
