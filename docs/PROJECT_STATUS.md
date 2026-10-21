@@ -22,14 +22,16 @@ Date: 21 October 2026
 - React/TypeScript migration, due to choosing lower-complexity static MVP for fast dependable publication
 
 ## Publication acceptance criteria
-- [ ] Tests pass in GitHub Actions
+- [x] Tests pass in GitHub Actions (8/8)
 - [ ] Pages URL loads all seven lessons and static assets (HTTP status 200)
-- [ ] All four automatic exercises in each lesson can be answered correctly
-- [ ] Self-check tasks allow progress to be completed
-- [ ] Completion survives reload and creates 13 review cards per lesson
-- [ ] Backup round-trip works in a clean test browser profile
-- [ ] Site looks good on a ~390px mobile viewport
-- [ ] No user personal data exported into repository
+- [x] All four automatic exercises in each lesson can be answered correctly
+- [x] Self-check tasks allow progress to be completed
+- [x] Completion survives reload and creates 13 review cards per lesson
+- [x] Backup round-trip works in a clean test browser profile
+- [x] Site looks good on a ~390px mobile viewport
+- [x] No user personal data exported into repository
+
+Local browser QA also covered all five navigation tabs, library search, overdue reviews, and no console/HTTP errors. Public Pages verification remains pending.
 
 ## Caveats
 - Import conflict policy is based on `updatedAt` from backups. It is safe for non-deleting merges but local clock changes may influence which record wins. Export a backup before importing.
